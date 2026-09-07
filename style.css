@@ -1,0 +1,26 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:#f4f6f8;color:#17202a}
+header{padding:28px 20px;background:#17202a;color:white}
+header h1{margin:0 0 6px;font-size:28px}
+header p{margin:0;opacity:.8}
+main{max-width:1000px;margin:30px auto;padding:0 16px}
+.card{background:white;border-radius:16px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,.08);margin-bottom:20px}
+.hidden{display:none!important}
+h2{margin-top:0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+button,input{font:inherit;border-radius:10px;padding:13px 15px}
+button{border:0;cursor:pointer;background:#e9edf1}
+button:disabled{opacity:.5;cursor:not-allowed}
+.primary{background:#1f6feb;color:white}
+.danger{background:#d73a49;color:white}
+.secondary{background:#e9edf1}
+.joinBox{display:flex;gap:8px}
+.joinBox input{width:100%;border:1px solid #ccd3da}
+.notice,.info{margin-top:18px;padding:14px;border-radius:10px;background:#f1f5f9}
+.row{display:flex;gap:16px;align-items:center}
+.between{justify-content:space-between}
+.pill{padding:7px 11px;border-radius:999px;background:#e9edf1;font-size:13px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+#map{height:520px;border-radius:12px;margin:18px 0}
+.details{padding:14px;background:#f7f8fa;border-radius:10px;margin-bottom:16px;line-height:1.7}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.joinBox{flex-direction:column}#map{height:420px}.between{align-items:flex-start;flex-direction:column}}
