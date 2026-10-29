@@ -1,5 +1,7 @@
 # Consent Tracker
 
+**🌐 Professional portfolio:** [Karan Mahalik — Data Analyst & Power BI Developer](https://karan-mahalik-portfolio.vercel.app/)
+
 A small real-time, consent-based mobile location tracker.
 
 ## Requirements
